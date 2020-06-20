@@ -1,3 +1,5 @@
+package from_codewars;
+
 import java.util.Arrays;
 
 public class Bowling {

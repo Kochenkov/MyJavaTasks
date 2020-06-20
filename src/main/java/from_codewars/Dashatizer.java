@@ -1,3 +1,5 @@
+package from_codewars;
+
 public class Dashatizer {
 
     /** my solution */

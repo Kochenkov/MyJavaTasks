@@ -1,3 +1,5 @@
+package from_codewars;
+
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
