@@ -2,13 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc485238-6a0a-412b-a0bc-38f17f13d348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/from_jet_brains_academy/encrypted_decrypted_project/EncryptDecrypt.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dataset_91007.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dataset_91033.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/dataset_91069.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/from_jet_brains_academy/encrypted_decrypted_project/EncryptDecryptTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/another/FindShortestWayForChessKing.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typical_tasks/TasksAboutInternetConnection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/typical_tasks/TasksAboutReadAndWrite.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/another/FindShortestWayForChessKingTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/AnotherTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/AnotherTasks.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/AnotherTasks.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/another/DatasetTasks.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -20,6 +19,11 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/MyJavaTasks$ArrayContainsTwoNumbersTest_test.ic" NAME="ArrayContainsTwoNumbersTest.test Coverage Results" MODIFIED="1594824083357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>from_jet_brains_academy.*</FILTER>
+    </SUITE>
+  </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -28,31 +32,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/from_codewars/Bowling.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/another/DatasetTasks.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/from_codewars/EnoughIsEnough.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="8" column="3" selection-start-line="8" selection-start-column="3" selection-end-line="8" selection-end-column="22" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/AnotherTasks.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="120" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
+            <state relative-caret-position="135">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -63,41 +46,86 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+            <state relative-caret-position="150">
+              <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/from_jet_brains_academy/encrypted_decrypted_project/EncryptDecrypt.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="134">
-              <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/from_codewars/Dashatizer.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/from_codewars/FindUniq.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/another/FindShortestWayForChessKing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/another/FindShortestWayForChessKingTests.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/BowlingTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/DashatizerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/EnoughIsEnoughTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="90">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/FindUniqTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/UnwantedDollarsTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -106,26 +134,9 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/from_jet_brains_academy/encrypted_decrypted_project/EncryptDecryptTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+              <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/lang/NumberFormatException.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="555">
-              <caret line="64" selection-start-line="64" selection-end-line="64" />
-              <folding>
-                <element signature="e#2359#2360#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/dataset_91069.txt">
-          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -169,17 +180,27 @@
         <option value="$PROJECT_DIR$/src/test/java/from_codewars/FindUnicTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/from_codewars/FindUniq.java" />
         <option value="$PROJECT_DIR$/src/test/java/from_codewars/FindUniqTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
-        <option value="$PROJECT_DIR$/src/main/java/AnotherTasks.java" />
         <option value="$PROJECT_DIR$/src/main/java/from_jet_brains_academy/encrypted_decrypted_project/Main.java" />
         <option value="$PROJECT_DIR$/src/test/java/from_jet_brains_academy/encrypted_decrypted_project/EncryptDecryptTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/from_jet_brains_academy/ArrayContainsTwoNumbers.java" />
+        <option value="$PROJECT_DIR$/src/test/java/from_jet_brains_academy/ArrayContainsTwoNumbersTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/typical_tascs/TasksAboutReadAndWrite.java" />
+        <option value="$PROJECT_DIR$/src/main/java/typical_tascs/TasksAboutInternetConnection.java" />
+        <option value="$PROJECT_DIR$/src/main/java/AnotherTasks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/DatasetTasks.java" />
+        <option value="$PROJECT_DIR$/src/main/java/FindShortestWayForChessKing.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FindShortestWayForChessKingTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/FindShortestWayForChessKingTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/Main.java" />
+        <option value="$PROJECT_DIR$/src/test/java/another/FindShortestWayForChessKingTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/another/FindShortestWayForChessKing.java" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1680" />
-    <option name="height" value="961" />
+    <option name="height" value="965" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -187,8 +208,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -220,24 +239,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="from_codewars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJavaTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJavaTasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="from_jet_brains_academy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJavaTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJavaTasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="from_jet_brains_academy" type="462c0819:PsiDirectoryNode" />
-              <item name="encrypted_decrypted_project" type="462c0819:PsiDirectoryNode" />
+              <item name="another" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyJavaTasks" type="b2602c69:ProjectViewProjectNode" />
@@ -265,29 +267,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="from_codewars" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJavaTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJavaTasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="from_jet_brains_academy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJavaTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJavaTasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="from_jet_brains_academy" type="462c0819:PsiDirectoryNode" />
-              <item name="encrypted_decrypted_project" type="462c0819:PsiDirectoryNode" />
+              <item name="another" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -295,10 +282,11 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1594755150431" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1599858491456" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last.edited.regexp" value="" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -306,9 +294,10 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="from_jet_brains_academy" />
       <recent name="from_jet_brains_academy.encrypted_decrypted_project" />
       <recent name="from_codewars" />
-      <recent name="" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
@@ -332,13 +321,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.EncryptDecryptTest.test">
-    <configuration name="EncryptDecrypt" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="from_jet_brains_academy.encrypted_decrypted_project.EncryptDecrypt" />
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="ArrayContainsTwoNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="from_jet_brains_academy.ArrayContainsTwoNumbers" />
       <module name="ru.kochenkov.MyJavaTasks.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="from_jet_brains_academy.encrypted_decrypted_project.*" />
+          <option name="PATTERN" value="from_jet_brains_academy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,6 +338,22 @@
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="ru.kochenkov.MyJavaTasks.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ArrayContainsTwoNumbersTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="ru.kochenkov.MyJavaTasks.test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="from_jet_brains_academy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="from_jet_brains_academy" />
+      <option name="MAIN_CLASS_NAME" value="from_jet_brains_academy.ArrayContainsTwoNumbersTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -369,33 +374,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FindUniqTest.findUniq" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="FindShortestWayForChessKingTests.findShortestWayTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="ru.kochenkov.MyJavaTasks.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="from_codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="from_codewars" />
-      <option name="MAIN_CLASS_NAME" value="from_codewars.FindUniqTest" />
-      <option name="METHOD_NAME" value="findUniq" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UnwantedDollarsTest.moneyValue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="ru.kochenkov.MyJavaTasks.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="from_codewars.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="from_codewars" />
-      <option name="MAIN_CLASS_NAME" value="from_codewars.UnwantedDollarsTest" />
-      <option name="METHOD_NAME" value="moneyValue" />
+      <option name="PACKAGE_NAME" value="another" />
+      <option name="MAIN_CLASS_NAME" value="another.FindShortestWayForChessKingTests" />
+      <option name="METHOD_NAME" value="findShortestWayTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -403,11 +386,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EncryptDecryptTest.test" />
-        <item itemvalue="Application.EncryptDecrypt" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FindUniqTest.findUniq" />
-        <item itemvalue="JUnit.UnwantedDollarsTest.moneyValue" />
+        <item itemvalue="JUnit.FindShortestWayForChessKingTests.findShortestWayTest" />
+        <item itemvalue="Application.ArrayContainsTwoNumbers" />
+        <item itemvalue="JUnit.ArrayContainsTwoNumbersTest.test" />
+        <item itemvalue="JUnit.EncryptDecryptTest.test" />
       </list>
     </recent_temporary>
   </component>
@@ -443,46 +426,69 @@
       <option name="project" value="LOCAL" />
       <updated>1592748688810</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="other">
+      <created>1594755227635</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1594755227636</updated>
+    </task>
+    <task id="LOCAL-00005" summary="added JetBrains EncryptDecrypt project">
+      <created>1594755242236</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1594755242236</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="FindUniqTest_findUniq - 2020.06.21 at 16h 12m 34s.xml">
-      <configuration name="FindUniqTest.findUniq" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindUniqTest_findUniq - 2020.06.21 at 17h 04m 11s.xml">
-      <configuration name="FindUniqTest.findUniq" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindUniqTest_findUniq - 2020.06.21 at 17h 04m 30s.xml">
-      <configuration name="FindUniqTest.findUniq" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindUniqTest_findUniq - 2020.06.21 at 17h 05m 09s.xml">
-      <configuration name="FindUniqTest.findUniq" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindUniqTest_findUniq - 2020.06.21 at 17h 09m 21s.xml">
-      <configuration name="FindUniqTest.findUniq" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindUniqTest_findUniq - 2020.06.21 at 17h 09m 30s.xml">
-      <configuration name="FindUniqTest.findUniq" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="FindUniqTest_findUniq - 2020.06.21 at 17h 09m 43s.xml">
-      <configuration name="FindUniqTest.findUniq" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="EncryptDecryptTest_test - 2020.07.14 at 22h 26m 58s.xml">
-      <configuration name="EncryptDecryptTest.test" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="EncryptDecryptTest_test - 2020.07.14 at 22h 28m 13s.xml">
       <configuration name="EncryptDecryptTest.test" configurationId="JUnit" />
     </history-entry>
     <history-entry file="EncryptDecryptTest_test - 2020.07.14 at 22h 28m 33s.xml">
       <configuration name="EncryptDecryptTest.test" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ArrayContainsTwoNumbersTest_test - 2020.07.15 at 17h 39m 27s.xml">
+      <configuration name="ArrayContainsTwoNumbersTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayContainsTwoNumbersTest_test - 2020.07.15 at 17h 39m 28s.xml">
+      <configuration name="ArrayContainsTwoNumbersTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayContainsTwoNumbersTest_test - 2020.07.15 at 17h 41m 20s.xml">
+      <configuration name="ArrayContainsTwoNumbersTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayContainsTwoNumbersTest_test - 2020.07.15 at 17h 41m 21s.xml">
+      <configuration name="ArrayContainsTwoNumbersTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayContainsTwoNumbersTest_test - 2020.07.15 at 17h 41m 29s.xml">
+      <configuration name="ArrayContainsTwoNumbersTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ArrayContainsTwoNumbersTest_test - 2020.07.15 at 17h 42m 07s.xml">
+      <configuration name="ArrayContainsTwoNumbersTest.test" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindShortestWayForChessKingTest_findShortestWayTest - 2020.09.11 at 23h 58m 28s.xml">
+      <configuration name="FindShortestWayForChessKingTest.findShortestWayTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="FindShortestWayForChessKingTests_findShortestWayTest - 2020.09.12 at 00h 01m 31s.xml">
+      <configuration name="FindShortestWayForChessKingTests.findShortestWayTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="961" extended-state="0" />
+    <frame x="0" y="23" width="1680" height="965" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2863248" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30463982" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -491,16 +497,16 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32796317" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4146621" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39930955" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32911393" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.32911393" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Build" order="10" weight="0.32949308" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.32911393" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32875144" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -510,13 +516,16 @@
       <window_info anchor="right" id="Theme Preview" order="6" />
       <window_info anchor="right" id="Capture Analysis" order="7" />
       <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Coverage" order="9" side_tool="true" weight="0.32967034" />
     </layout>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added typical tasks" />
     <MESSAGE value="refactor" />
     <MESSAGE value="findUniqNumber" />
-    <option name="LAST_COMMIT_MESSAGE" value="findUniqNumber" />
+    <MESSAGE value="other" />
+    <MESSAGE value="added JetBrains EncryptDecrypt project" />
+    <option name="LAST_COMMIT_MESSAGE" value="added JetBrains EncryptDecrypt project" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -558,14 +567,14 @@
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AnotherTasks.java</url>
-          <line>98</line>
+          <url>file://$PROJECT_DIR$/src/main/java/another/DatasetTasks.java</url>
+          <line>49</line>
           <properties />
           <option name="timeStamp" value="33" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/AnotherTasks.java</url>
-          <line>117</line>
+          <url>file://$PROJECT_DIR$/src/main/java/another/DatasetTasks.java</url>
+          <line>68</line>
           <properties />
           <option name="timeStamp" value="34" />
         </line-breakpoint>
@@ -666,36 +675,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/text2.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/text1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/DashatizerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/EnoughIsEnoughTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/HashMap.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="186">
@@ -714,16 +693,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/UnwantedDollarsTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -734,31 +703,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/FindUniqTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/BowlingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/dataset.txt" />
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="20715">
-          <caret line="1438" selection-start-line="1438" selection-end-line="1438" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/dataset_91007.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -795,26 +740,6 @@
     <entry file="file://$PROJECT_DIR$/src/main/resources/dataset_91069.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/AnotherTasks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="120" column="1" selection-start-line="120" selection-start-column="1" selection-end-line="120" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/from_codewars/Bowling.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -832,16 +757,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/from_jet_brains_academy/encrypted_decrypted_project/EncryptDecryptTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/from_jet_brains_academy/ArrayContainsTwoNumbersTest.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_jet_brains_academy/ArrayContainsTwoNumbers.java" />
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/lang/Runnable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="21" column="1" lean-forward="true" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        <state relative-caret-position="465">
+          <caret line="54" column="13" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/lang/FunctionalInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="68" column="18" selection-start-line="68" selection-start-column="18" selection-end-line="68" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1635">
+          <caret line="144" column="24" selection-start-line="144" selection-start-column="24" selection-end-line="144" selection-end-column="24" />
+          <folding>
+            <element signature="e#5886#5887#0" expanded="true" />
+            <element signature="e#5935#5936#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/concurrent/atomic/AtomicLong.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="53" column="13" selection-start-line="53" selection-start-column="13" selection-end-line="53" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/from_jet_brains_academy/encrypted_decrypted_project/EncryptDecrypt.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="134">
+        <state relative-caret-position="135">
           <caret line="9" column="23" selection-start-line="9" selection-start-column="23" selection-end-line="9" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -860,6 +812,131 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text1.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="5" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/text2.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="1477" selection-start-line="1477" selection-end-line="1477" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/typical_tasks/TasksAboutInternetConnection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="28" selection-start-line="22" selection-start-column="28" selection-end-line="22" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/typical_tasks/TasksAboutReadAndWrite.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-67">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/BowlingTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/DashatizerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/EnoughIsEnoughTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/FindUniqTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/UnwantedDollarsTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="37" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/from_jet_brains_academy/encrypted_decrypted_project/EncryptDecryptTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/another/DatasetTasks.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/another/FindShortestWayForChessKingTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/another/FindShortestWayForChessKing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
