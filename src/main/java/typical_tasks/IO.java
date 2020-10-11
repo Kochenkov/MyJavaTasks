@@ -7,7 +7,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.Scanner;
 
-public class TasksAboutReadAndWrite {
+public class IO {
 
     public static void readFromKeypadWithBufferedReader() throws IOException {
         BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(System.in));

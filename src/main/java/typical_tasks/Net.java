@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
-public class TasksAboutInternetConnection {
+public class Net {
 
     public static void getInternetPageFromHttp() throws IOException {
         String url = "http://google.com";
