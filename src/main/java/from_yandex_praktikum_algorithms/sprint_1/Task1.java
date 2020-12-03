@@ -6,6 +6,12 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
+import java.util.stream.IntStream;
+
+/**
+ * Выполнил Коченков Владислав
+ * ID 43482784
+ */
 
 public class Task1 {
 
@@ -13,60 +19,93 @@ public class Task1 {
         //ввод
         BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
         int size = Integer.parseInt(in.readLine());
-        String[] street = in.readLine()
-                            .split(" ");
+        String[] houseNumbers = in.readLine()
+                                  .split(" ");
 
-        //находим позиции всех нулей во входящем массиве
+        //создаем список с позициями всех нулей
         List<Integer> zeroPositionsList = new ArrayList<>();
-        System.out.println("массив с нулями: ");
-        for (int i = 0; i < street.length; i++) {
-            if (street[i].equals("0")) {
+        for (int i = 0; i < houseNumbers.length; i++) {
+            if (houseNumbers[i].equals("0")) {
                 zeroPositionsList.add(i);
-                //логи
-                System.out.print(i + " ");
             }
         }
-        //логи
-        System.out.println("");
 
-        //находим позиции, по которым будем делить входной массив
+        //создаем список с позициями, по которым будем делить входной массив на подмассивы
         List<Integer> cuttingPositionsList = new ArrayList<>();
-        System.out.println("массив с позициями для разрезания: ");
         if (zeroPositionsList.size() > 1) {
             for (int i = 0; i < zeroPositionsList.size() - 1; i++) {
                 int a = zeroPositionsList.get(i);
                 int b = zeroPositionsList.get(i + 1);
                 int c = (b - a) / 2 + a;
                 cuttingPositionsList.add(c);
-                //логи
-                System.out.print(c + " ");
             }
         }
-        //логи
-        System.out.println("");
 
-        //делим входной массив на суб-массивы
-        String[][] cuttingArrays = new String[cuttingPositionsList.size()+1][];
-        if (cuttingPositionsList.size()==0) {
-            cuttingArrays[0] = street;
-        } else if (cuttingPositionsList.size()==1) {
-            cuttingArrays[0] = Arrays.copyOfRange(street, 0, cuttingPositionsList.get(0));
-            cuttingArrays[1] = Arrays.copyOfRange(street, cuttingPositionsList.get(0), street.length);
+        //делим входной массив на подмассивы
+        String[][] cuttingArrays = new String[cuttingPositionsList.size() + 1][];
+        if (cuttingPositionsList.size() == 0) {
+            cuttingArrays[0] = houseNumbers;
+        } else if (cuttingPositionsList.size() == 1) {
+            cuttingArrays[0] = Arrays.copyOfRange(houseNumbers, 0, cuttingPositionsList.get(0) + 1);
+            cuttingArrays[1] = Arrays.copyOfRange(houseNumbers, cuttingPositionsList.get(0) + 1, houseNumbers.length);
         } else {
-            cuttingArrays[0] = Arrays.copyOfRange(street, 0, cuttingPositionsList.get(0)+1);
-            for (int i=0; i<cuttingPositionsList.size()-1; i++) {
-                cuttingArrays[i+1] = Arrays.copyOfRange(street, cuttingPositionsList.get(i)+1, cuttingPositionsList.get(i+1)+1);
+            cuttingArrays[0] = Arrays.copyOfRange(houseNumbers, 0, cuttingPositionsList.get(0) + 1);
+            for (int i = 0; i < cuttingPositionsList.size() - 1; i++) {
+                cuttingArrays[i + 1] = Arrays.copyOfRange(houseNumbers,
+                                                          cuttingPositionsList.get(i) + 1,
+                                                          cuttingPositionsList.get(i + 1) + 1);
             }
-            cuttingArrays[cuttingPositionsList.size()] = Arrays.copyOfRange(street, cuttingPositionsList.get(cuttingPositionsList.size()-1)+1, street.length);
+            cuttingArrays[cuttingPositionsList.size()] = Arrays.copyOfRange(houseNumbers,
+                                                                            cuttingPositionsList.get(cuttingPositionsList.size() - 1) + 1,
+                                                                            houseNumbers.length);
         }
 
-       //логи
-        for (int i=0; i<cuttingArrays.length; i++) {
-            System.out.println(Arrays.toString(cuttingArrays[i]));
+        //находим расстояния в раздробленных массивах и выводим результат
+        StringBuilder sb = new StringBuilder();
+        for (int i = 0; i < cuttingArrays.length; i++) {
+            sb.append(Arrays.toString(findDistanceForZero(cuttingArrays[i])));
         }
-
-        //todo написать одну функцию под все массивы - определение расстояния до нуля
+        String answer = sb.toString()
+                          .replace("]", " ")
+                          .replace("[", "")
+                          .replace(",", "");
+        System.out.println(answer);
 
     }
 
+    //функция нахождения расстояния каждого элемента до нуля
+    private static int[] findDistanceForZero(String[] arrayWithOneZero) {
+        int[] positions = new int[arrayWithOneZero.length];
+        int zeroPosition = 0;
+        for (int i = 0; i < arrayWithOneZero.length; i++) {
+            if (arrayWithOneZero[i].equals("0")) {
+                zeroPosition = i;
+                break;
+            }
+        }
+        for (int i = 0; i < arrayWithOneZero.length; i++) {
+            positions[i] = Math.abs(zeroPosition - i);
+        }
+        return positions;
+    }
+
+    //таже самая ф-ция что и выше, только с использованием стримов (ID 43482944)
+    /**
+     * Для сравнения, прогнал задачу с разной реализацией этих функций, не меняя остального кода.
+     * Решение с использованием верхней ф-ции:         1.433s  361.88Mb
+     * Решение с использованием нижней (этой) ф-ции:   1.603s  407.22Mb
+     * Как видно, решение на стримах получилось медленее, и более требовательным по-памяти. Но возможно просто я что-то не так написал
+     * Интересно услышать ваше мнение на этот счёт
+
+    private static int[] findDistanceForZero(String[] arrayWithOneZeroPlace) {
+        int zeroPosition = IntStream.range(0, arrayWithOneZeroPlace.length)
+                                    .filter(i -> arrayWithOneZeroPlace[i].equals("0"))
+                                    .findFirst()
+                                    .orElse(0);
+        return IntStream.range(0, arrayWithOneZeroPlace.length)
+                        .map(i -> Math.abs(zeroPosition - i))
+                        .toArray();
+
+    }
+     */
 }
