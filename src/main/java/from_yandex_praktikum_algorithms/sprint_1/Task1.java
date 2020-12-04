@@ -6,7 +6,6 @@ import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.stream.IntStream;
 
 /**
  * Выполнил Коченков Владислав
@@ -95,7 +94,7 @@ public class Task1 {
      * Решение с использованием верхней ф-ции:         1.433s  361.88Mb
      * Решение с использованием нижней (этой) ф-ции:   1.603s  407.22Mb
      * Как видно, решение на стримах получилось медленее, и более требовательным по-памяти. Но возможно просто я что-то не так написал
-     * Интересно услышать ваше мнение на этот счёт
+     * Интересно услышать ваше мнение на этот счёт, на сколько целесообразно использовать стримы в подобных задачах
 
     private static int[] findDistanceForZero(String[] arrayWithOneZeroPlace) {
         int zeroPosition = IntStream.range(0, arrayWithOneZeroPlace.length)
