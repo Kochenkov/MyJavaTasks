@@ -3,108 +3,52 @@ package from_yandex_praktikum_algorithms.sprint_1;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 
 /**
  * Выполнил Коченков Владислав
- * ID 43482784
+ * ID 44092760
+ *
+ * Большое спасибо за замечания. Полностью переписал реализацию и делаю два прохода. Тест стал работать гораздо быстрее и занимать меньше памяти
  */
 
 public class Task1 {
 
     public static void main(String[] args) throws IOException {
+
         //ввод
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        int size = Integer.parseInt(in.readLine());
-        String[] houseNumbers = in.readLine()
-                                  .split(" ");
+        final BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        final int size = Integer.parseInt(in.readLine());
+        final String[] houseNumbers = in.readLine()
+                                        .split(" ");
+        in.close();
 
-        //создаем список с позициями всех нулей
-        List<Integer> zeroPositionsList = new ArrayList<>();
-        for (int i = 0; i < houseNumbers.length; i++) {
+        //идем справа на лево и сохраняем расстояния до известных нулей в список
+        final int[] leftDirectionList = new int[size];
+        int worstPossibleZeroPosition = 0;
+        for (int i = size - 1; i >= 0; i--) {
             if (houseNumbers[i].equals("0")) {
-                zeroPositionsList.add(i);
+                worstPossibleZeroPosition = i;
+            }
+            leftDirectionList[i] = Math.abs(i - worstPossibleZeroPosition);
+        }
+
+        //идем слева на право и сразу сравниваем значения с предыдущим проходом, выбираем минимальное, сохраняем его в строку для последующего вывода
+        final StringBuilder result = new StringBuilder();
+        worstPossibleZeroPosition = size - 1;
+        for (int i = 0; i < size; i++) {
+            if (houseNumbers[i].equals("0")) {
+                worstPossibleZeroPosition = i;
+            }
+            int currentPos = Math.abs(i - worstPossibleZeroPosition);
+            if (currentPos > leftDirectionList[i]) {
+                result.append(leftDirectionList[i])
+                      .append(" ");
+            } else {
+                result.append(currentPos)
+                      .append(" ");
             }
         }
 
-        //создаем список с позициями, по которым будем делить входной массив на подмассивы
-        List<Integer> cuttingPositionsList = new ArrayList<>();
-        if (zeroPositionsList.size() > 1) {
-            for (int i = 0; i < zeroPositionsList.size() - 1; i++) {
-                int a = zeroPositionsList.get(i);
-                int b = zeroPositionsList.get(i + 1);
-                int c = (b - a) / 2 + a;
-                cuttingPositionsList.add(c);
-            }
-        }
-
-        //делим входной массив на подмассивы
-        String[][] cuttingArrays = new String[cuttingPositionsList.size() + 1][];
-        if (cuttingPositionsList.size() == 0) {
-            cuttingArrays[0] = houseNumbers;
-        } else if (cuttingPositionsList.size() == 1) {
-            cuttingArrays[0] = Arrays.copyOfRange(houseNumbers, 0, cuttingPositionsList.get(0) + 1);
-            cuttingArrays[1] = Arrays.copyOfRange(houseNumbers, cuttingPositionsList.get(0) + 1, houseNumbers.length);
-        } else {
-            cuttingArrays[0] = Arrays.copyOfRange(houseNumbers, 0, cuttingPositionsList.get(0) + 1);
-            for (int i = 0; i < cuttingPositionsList.size() - 1; i++) {
-                cuttingArrays[i + 1] = Arrays.copyOfRange(houseNumbers,
-                                                          cuttingPositionsList.get(i) + 1,
-                                                          cuttingPositionsList.get(i + 1) + 1);
-            }
-            cuttingArrays[cuttingPositionsList.size()] = Arrays.copyOfRange(houseNumbers,
-                                                                            cuttingPositionsList.get(cuttingPositionsList.size() - 1) + 1,
-                                                                            houseNumbers.length);
-        }
-
-        //находим расстояния в раздробленных массивах и выводим результат
-        StringBuilder sb = new StringBuilder();
-        for (int i = 0; i < cuttingArrays.length; i++) {
-            sb.append(Arrays.toString(findDistanceForZero(cuttingArrays[i])));
-        }
-        String answer = sb.toString()
-                          .replace("]", " ")
-                          .replace("[", "")
-                          .replace(",", "");
-        System.out.println(answer);
-
+        System.out.print(result.toString());
     }
-
-    //функция нахождения расстояния каждого элемента до нуля
-    private static int[] findDistanceForZero(String[] arrayWithOneZero) {
-        int[] positions = new int[arrayWithOneZero.length];
-        int zeroPosition = 0;
-        for (int i = 0; i < arrayWithOneZero.length; i++) {
-            if (arrayWithOneZero[i].equals("0")) {
-                zeroPosition = i;
-                break;
-            }
-        }
-        for (int i = 0; i < arrayWithOneZero.length; i++) {
-            positions[i] = Math.abs(zeroPosition - i);
-        }
-        return positions;
-    }
-
-    //таже самая ф-ция что и выше, только с использованием стримов (ID 43482944)
-    /**
-     * Для сравнения, прогнал задачу с разной реализацией этих функций, не меняя остального кода.
-     * Решение с использованием верхней ф-ции:         1.433s  361.88Mb
-     * Решение с использованием нижней (этой) ф-ции:   1.603s  407.22Mb
-     * Как видно, решение на стримах получилось медленее, и более требовательным по-памяти. Но возможно просто я что-то не так написал
-     * Интересно услышать ваше мнение на этот счёт, на сколько целесообразно использовать стримы в подобных задачах
-
-    private static int[] findDistanceForZero(String[] arrayWithOneZeroPlace) {
-        int zeroPosition = IntStream.range(0, arrayWithOneZeroPlace.length)
-                                    .filter(i -> arrayWithOneZeroPlace[i].equals("0"))
-                                    .findFirst()
-                                    .orElse(0);
-        return IntStream.range(0, arrayWithOneZeroPlace.length)
-                        .map(i -> Math.abs(zeroPosition - i))
-                        .toArray();
-
-    }
-     */
 }

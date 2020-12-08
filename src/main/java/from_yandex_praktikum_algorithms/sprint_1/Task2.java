@@ -4,7 +4,10 @@ import java.util.Scanner;
 
 /**
  * Выполнил Коченков Владислав
- * ID 43513755
+ * ID 44190477
+ *
+ * Обновил эту задачу тоже. Добавил модификаторы final и scan.close().
+ * Хотел сказать спасибо за комментарий по поводу default в switch/case, но кажется что в конкретно этой задаче он не нужен
  */
 
 public class Task2 {
@@ -14,13 +17,14 @@ public class Task2 {
         final int KEYBOARD_SIZE = 4;
 
         //ввод
-        Scanner scan = new Scanner(System.in);
-        int k = scan.nextInt();
-        String[][] keyboardArray = new String[KEYBOARD_SIZE][KEYBOARD_SIZE];
+        final Scanner scan = new Scanner(System.in);
+        final int k = scan.nextInt();
+        final String[][] keyboardArray = new String[KEYBOARD_SIZE][KEYBOARD_SIZE];
         for (int i = 0; i < KEYBOARD_SIZE; i++) {
             String inputStr = scan.next();
             keyboardArray[i] = inputStr.split("");
         }
+        scan.close();
 
         //реализация алгоритма
         int boysScore = 0;
@@ -59,9 +63,9 @@ public class Task2 {
             }
         }
 
-        for (int i=0; i<valuesAmountArray.length; i++) {
-            if (valuesAmountArray[i]>0) {
-                if (k*2>=valuesAmountArray[i]) {
+        for (int i = 0; i < valuesAmountArray.length; i++) {
+            if (valuesAmountArray[i] > 0) {
+                if (k * 2 >= valuesAmountArray[i]) {
                     boysScore++;
                 }
             }

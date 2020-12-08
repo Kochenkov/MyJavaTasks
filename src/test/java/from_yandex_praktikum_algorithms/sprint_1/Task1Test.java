@@ -4,8 +4,6 @@ import org.junit.Test;
 
 import java.util.Arrays;
 
-import static org.junit.Assert.*;
-
 public class Task1Test {
 
 
@@ -13,7 +11,7 @@ public class Task1Test {
     @Test
     public void findNearZero() {
         String[] str = {};
-        int[] out = Task1.findNearZero(str);
+        int[] out = Task1old.findNearZero(str);
         System.out.print(Arrays.toString(out));
     }
 }
