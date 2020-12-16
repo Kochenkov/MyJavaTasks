@@ -59,6 +59,8 @@ public class Task2 {
                     case "9":
                         valuesAmountArray[8]++;
                         break;
+                    default:
+                        throw new UnsupportedOperationException();
                 }
             }
         }
