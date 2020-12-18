@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc485238-6a0a-412b-a0bc-38f17f13d348" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTaskV2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTaskV2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTask.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTask.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/A.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/A.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -20,6 +19,9 @@
     <SUITE FILE_PATH="coverage/MyJavaTasks$ArrayContainsTwoNumbersTest_test.ic" NAME="ArrayContainsTwoNumbersTest.test Coverage Results" MODIFIED="1594824083357" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
       <FILTER>from_jet_brains_academy.*</FILTER>
     </SUITE>
+    <SUITE FILE_PATH="coverage/MyJavaTasks$CalculatorTaskV2.ic" NAME="CalculatorTaskV2 Coverage Results" MODIFIED="1608302538824" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>from_yandex_praktikum_algorithms.sprint_2.final_tasks.*</FILTER>
+    </SUITE>
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
@@ -31,7 +33,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
+            <state relative-caret-position="257">
               <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -41,10 +43,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTask.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTaskV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+            <state relative-caret-position="375">
+              <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,22 +55,33 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/ArrayDeque.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/H.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2175">
-              <caret line="181" column="18" selection-start-line="181" selection-start-column="18" selection-end-line="181" selection-end-column="18" />
+            <state relative-caret-position="351">
+              <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/ArrayList.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/Solution.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1635">
-              <caret line="135" column="28" selection-start-line="135" selection-start-column="28" selection-end-line="135" selection-end-column="28" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTask.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1370">
+              <caret line="104" column="36" lean-forward="true" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
               <folding>
-                <element signature="e#7333#7334#0" expanded="true" />
-                <element signature="e#7401#7402#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -77,47 +90,60 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/LinkedList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="915">
-              <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
+            <state relative-caret-position="285">
+              <caret line="96" column="27" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="96" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Deque.java">
+        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/jdk.internal.vm.compiler/org.graalvm.compiler.replacements/src/org/graalvm/compiler/replacements/PEGraphDecoder.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2550">
-              <caret line="203" column="38" selection-start-line="203" selection-start-column="38" selection-end-line="203" selection-end-column="38" />
+            <state relative-caret-position="210">
+              <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/typical_tasks/IO.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTaskV2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="123" />
+            <state relative-caret-position="-1270">
+              <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#2466#2467#0" expanded="true" />
+                <element signature="e#2494#2495#0" expanded="true" />
+                <element signature="e#2563#2564#0" expanded="true" />
+                <element signature="e#2591#2592#0" expanded="true" />
+                <element signature="e#2657#2658#0" expanded="true" />
+                <element signature="e#2685#2686#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/A.java">
+        <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Scanner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
+            <state relative-caret-position="169">
+              <caret line="1437" column="19" selection-start-line="1437" selection-start-column="19" selection-end-line="1437" selection-end-column="19" />
+              <folding>
+                <element signature="e#22850#22851#0" expanded="true" />
+                <element signature="e#22921#22922#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/output.txt">
+        <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/StackTask.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" selection-start-line="2" selection-end-line="2" />
+            <state relative-caret-position="257">
+              <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -150,8 +176,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/from_codewars/UnwantedDollarsTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/from_codewars/FindUnic.java" />
         <option value="$PROJECT_DIR$/src/test/java/from_codewars/FindUnicTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/from_codewars/FindUniq.java" />
         <option value="$PROJECT_DIR$/src/test/java/from_codewars/FindUniqTest.java" />
@@ -201,6 +225,8 @@
         <option value="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTaskStack.java" />
         <option value="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTask.java" />
         <option value="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTask.java" />
+        <option value="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTaskV2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTaskV2.java" />
       </list>
     </option>
   </component>
@@ -217,7 +243,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,16 +295,6 @@
               <item name="from_yandex_praktikum_algorithms" type="462c0819:PsiDirectoryNode" />
               <item name="sprint_2" type="462c0819:PsiDirectoryNode" />
               <item name="final_tasks" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MyJavaTasks" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MyJavaTasks" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="from_yandex_praktikum_algorithms" type="462c0819:PsiDirectoryNode" />
-              <item name="sprint_2" type="462c0819:PsiDirectoryNode" />
-              <item name="simple_tasks" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MyJavaTasks" type="b2602c69:ProjectViewProjectNode" />
@@ -379,7 +395,7 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -387,7 +403,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608209799129" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1608322386398" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
@@ -436,7 +452,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.CalculatorTaskStack">
+  <component name="RunManager" selected="Application.DequeTaskV2">
     <configuration name="A" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="from_yandex_praktikum_algorithms.sprint_2.simple_tasks.A" />
       <module name="ru.kochenkov.MyJavaTasks.main" />
@@ -476,8 +492,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DequeTask" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="from_yandex_praktikum_algorithms.sprint_2.final_tasks.DequeTask" />
+    <configuration name="CalculatorTaskV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="from_yandex_praktikum_algorithms.sprint_2.final_tasks.CalculatorTaskV2" />
       <module name="ru.kochenkov.MyJavaTasks.main" />
       <extension name="coverage">
         <pattern>
@@ -489,12 +505,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="H" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="from_yandex_praktikum_algorithms.sprint_2.simple_tasks.H" />
+    <configuration name="DequeTaskV2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="from_yandex_praktikum_algorithms.sprint_2.final_tasks.DequeTaskV2" />
       <module name="ru.kochenkov.MyJavaTasks.main" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="from_yandex_praktikum_algorithms.sprint_2.simple_tasks.*" />
+          <option name="PATTERN" value="from_yandex_praktikum_algorithms.sprint_2.final_tasks.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -504,11 +520,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.DequeTaskV2" />
+        <item itemvalue="Application.CalculatorTaskV2" />
         <item itemvalue="Application.CalculatorTaskStack" />
         <item itemvalue="Application.CalculatorTask" />
         <item itemvalue="Application.A" />
-        <item itemvalue="Application.DequeTask" />
-        <item itemvalue="Application.H" />
       </list>
     </recent_temporary>
   </component>
@@ -607,7 +623,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608131783299</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="added yandex task sprint 2">
+      <created>1608209815342</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1608209815342</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -653,8 +676,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1680" height="974" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2789988" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2851038" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -663,8 +687,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32911393" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2505669" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.3968254" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.2505669" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.3968254" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32911393" />
@@ -884,50 +908,42 @@
           </properties>
           <option name="timeStamp" value="56" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTaskV2.java</url>
+          <line>84</line>
+          <properties class="from_yandex_praktikum_algorithms.sprint_2.final_tasks.DequeTaskV2.Deque" method="pushBack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="87" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTaskV2.java</url>
+          <line>101</line>
+          <properties class="from_yandex_praktikum_algorithms.sprint_2.final_tasks.DequeTaskV2.Deque" method="pushFront">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="88" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTaskV2.java</url>
+          <line>118</line>
+          <properties class="from_yandex_praktikum_algorithms.sprint_2.final_tasks.DequeTaskV2.Deque" method="popBack">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="89" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTaskV2.java</url>
+          <line>137</line>
+          <properties class="from_yandex_praktikum_algorithms.sprint_2.final_tasks.DequeTaskV2.Deque" method="popFront">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="90" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3585">
-          <caret line="283" column="53" selection-start-line="283" selection-start-column="48" selection-end-line="283" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/from_codewars/BowlingTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="12" selection-start-line="11" selection-start-column="12" selection-end-line="11" selection-end-column="12" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/from_codewars/Bowling.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/from_codewars/FindUniq.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/List.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7230">
-          <caret line="505" column="17" selection-start-line="505" selection-start-column="17" selection-end-line="505" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib/1.3.0/98515ba3feb571f93b923e61f643bdaed59d14ac/kotlin-stdlib-1.3.0-sources.jar!/kotlin/Collections.kt" />
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-stdlib-common/1.3.0/8bee30ce9d075088b3d590488a270e2c3ea39b3a/kotlin-stdlib-common-1.3.0-sources.jar!/kotlin/collections/Collections.kt" />
     <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Arrays.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="20730">
@@ -951,17 +967,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="6000">
           <caret line="439" column="17" selection-start-line="439" selection-start-column="17" selection-end-line="439" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Scanner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7875">
-          <caret line="564" column="11" selection-start-line="564" selection-start-column="11" selection-end-line="564" selection-end-column="11" />
-          <folding>
-            <element signature="e#22850#22851#0" expanded="true" />
-            <element signature="e#22921#22922#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1117,23 +1122,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/StackTask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="15" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/QueueTask.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="149">
@@ -1142,16 +1130,6 @@
             <element signature="imports" expanded="true" />
             <element signature="e#2062#2063#0" expanded="true" />
             <element signature="e#2123#2124#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/H.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1170,13 +1148,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTask2Stacks.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="15" column="66" selection-start-line="15" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTask2Stacks.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTaskStack.java" />
     <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/ArrayDeque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2175">
@@ -1195,13 +1168,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/LinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="84" column="27" selection-start-line="84" selection-start-column="27" selection-end-line="84" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Deque.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2550">
@@ -1211,18 +1177,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/typical_tasks/IO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
+        <state relative-caret-position="510">
           <caret line="34" column="48" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="123" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/output.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
@@ -1233,17 +1192,63 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTaskStack.java">
+    <entry file="file://$PROJECT_DIR$/src/main/resources/output.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="584">
-          <caret line="91" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="91" />
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTask.java">
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/List.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="285">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <caret line="137" column="38" selection-start-line="137" selection-start-column="38" selection-end-line="137" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="220" column="42" selection-start-line="220" selection-start-column="42" selection-end-line="220" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/lang/Iterable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Map.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="153" column="17" selection-start-line="153" selection-start-column="17" selection-end-line="153" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/jdk.internal.vm.compiler/org.graalvm.compiler.replacements/src/org/graalvm/compiler/replacements/PEGraphDecoder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/Scanner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="1437" column="19" selection-start-line="1437" selection-start-column="19" selection-end-line="1437" selection-end-column="19" />
+          <folding>
+            <element signature="e#22850#22851#0" expanded="true" />
+            <element signature="e#22921#22922#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/StackTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="69" column="25" lean-forward="true" selection-start-line="69" selection-start-column="25" selection-end-line="69" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1252,8 +1257,68 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTask.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="29" lean-forward="true" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        <state relative-caret-position="1370">
+          <caret line="104" column="36" lean-forward="true" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/H.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/simple_tasks/Solution.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.sdkman/candidates/java/11.0.5.hs-adpt/lib/src.zip!/java.base/java/util/LinkedList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="96" column="27" lean-forward="true" selection-start-line="86" selection-start-column="3" selection-end-line="96" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/CalculatorTaskV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1270">
+          <caret line="13" column="23" lean-forward="true" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2466#2467#0" expanded="true" />
+            <element signature="e#2494#2495#0" expanded="true" />
+            <element signature="e#2563#2564#0" expanded="true" />
+            <element signature="e#2591#2592#0" expanded="true" />
+            <element signature="e#2657#2658#0" expanded="true" />
+            <element signature="e#2685#2686#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/from_yandex_praktikum_algorithms/sprint_2/final_tasks/DequeTaskV2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="26" lean-forward="true" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
