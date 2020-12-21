@@ -16,7 +16,6 @@ public class QueueTask {
         int capacity = Integer.parseInt(in.readLine()
                                           .split(" ")[0]);
         Queue queue = new Queue(capacity);
-        //todo
 
         for (int i = 0; i < commandsSize; i++) {
             String[] command = in.readLine()
