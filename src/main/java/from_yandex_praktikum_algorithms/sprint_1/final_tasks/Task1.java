@@ -1,4 +1,4 @@
-package from_yandex_praktikum_algorithms.sprint_1;
+package from_yandex_praktikum_algorithms.sprint_1.final_tasks;
 
 import java.io.BufferedReader;
 import java.io.IOException;

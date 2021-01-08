@@ -1,4 +1,4 @@
-package typical_tasks;
+package typical_java_tasks;
 
 import java.io.BufferedReader;
 import java.io.FileReader;

@@ -6,13 +6,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//todo превышен лемит по-памяти
 public class A {
 
     public static void main(String[] args) throws IOException {
         final BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-        final BufferedWriter out = new BufferedWriter(new FileWriter("output.txt"));
-
+        final StringBuilder sb = new StringBuilder();
         final short lines = Short.parseShort(in.readLine()
                                                .split(" ")[0]);
         final short columns = Short.parseShort(in.readLine()
@@ -25,10 +23,11 @@ public class A {
 
         for (short i = 0; i < columns; i++) {
             for (short j = 0; j < lines; j++) {
-                out.write(matrix[j][i] + " ");
+                sb.append(matrix[j][i])
+                  .append(" ");
             }
-            out.newLine();
+            sb.append("\n");
         }
-        out.close();
+        System.out.print(sb.toString());
     }
 }

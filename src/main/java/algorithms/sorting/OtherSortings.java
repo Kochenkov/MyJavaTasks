@@ -1,8 +1,8 @@
-package algorithms;
+package algorithms.sorting;
 
 import java.util.Arrays;
 
-public class Sorting {
+public class OtherSortings {
 
     public static void badSort(int[] input) {
         int counter = 0;
