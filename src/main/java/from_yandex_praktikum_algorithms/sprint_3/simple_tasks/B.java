@@ -3,18 +3,13 @@ package from_yandex_praktikum_algorithms.sprint_3.simple_tasks;
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Queue;
 
 //todo
 public class B {
-
-//    private final static String[] b2 = new String[]{"a", "b", "c"};
-//    private final static String[] b3 = new String[]{"d", "e", "f"};
-//    private final static String[] b4 = new String[]{"g", "h", "i"};
-//    private final static String[] b5 = new String[]{"j", "k", "l"};
-//    private final static String[] b6 = new String[]{"m", "n", "o"};
-//    private final static String[] b7 = new String[]{"p", "q", "r", "s"};
-//    private final static String[] b8 = new String[]{"t", "u", "v"};
-//    private final static String[] b9 = new String[]{"w", "x", "y", "z"};
 
 
     public static void main(String[] args) throws IOException {

@@ -4,32 +4,45 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-//решил!!!
-//https://tproger.ru/problems/searching-element-in-array/
+/**
+ * Посылка: 46319992
+ * Выполнил: Коченков Владислав
+ *
+ * -- ПРИНЦИП РАБОТЫ --
+ * Для решения данной задачи (поиск в отсортированном массиве со сдвигом) использую модификацию бинарного поиска.
+ * В функцию binarySearch() передается значение исходного массива, значение когорое необходимо найти, и ганицы поиска.
+ * Далее, функция проверяет на каком участке массива находится искомый элемент и рекурсивно вызывает саму себя с новыми значениями границ.
+ * Базовый случай рекурсии - когда левая граница равна правой.
+ *
+ * -- КОРРЕКТНОСТЬ РАБОТЫ --
+ * Основная сложность данной задачи в том, что беря какую-то центральную точку, одна часть массива может быть не отсортирована (имеет точку перегиба).
+ * Достаточно много времени ушло на понимание того, в каких именно частях массива нужно искать значение при рахных условиях.
+ * На всех заданных тестах функция работает корректно.
+ *
+ * -- ВРЕМЕННАЯ СЛОЖНОСТЬ --
+ * Алгоритм работает за O (log n), тк используется модификация бинарного поиска.
+ */
 public class A {
 
     public static void main(String[] args) throws IOException {
-        BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
-
-        int size = Integer.parseInt(in.readLine()
-                                      .split(" ")[0]);
-        int findValue = Integer.parseInt(in.readLine()
-                                           .split(" ")[0]);
-        String[] arr = in.readLine()
-                         .split(" ");
+        final BufferedReader in = new BufferedReader(new InputStreamReader(System.in));
+        final int size = Integer.parseInt(in.readLine().split(" ")[0]);
+        final int findValue = Integer.parseInt(in.readLine().split(" ")[0]);
+        final String[] arr = in.readLine().split(" ");
         in.close();
-        int[] intArr = new int[size];
+
+        final int[] intArr = new int[size];
         for (int i = 0; i < size; i++) {
             intArr[i] = Integer.parseInt(arr[i]);
         }
 
-        int answer = binarySearch(intArr, findValue, 0, intArr.length-1);
+        final int answer = binarySearch(intArr, findValue, 0, intArr.length-1);
 
         System.out.println(answer);
     }
 
-    public static int binarySearch(int arr[], int x, int left, int right) {
-        int mid = (left + right) / 2;
+    private static int binarySearch(int arr[], int x, int left, int right) {
+        final int mid = (left + right) / 2;
 
         if (x == arr[mid]) {
             return mid;
