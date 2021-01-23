@@ -16,6 +16,12 @@ public class A {
         char[] charArr = scan.readLine().toCharArray();
         scan.close();
 
+
+
+        System.out.println(calculateHash(a, m, charArr));
+    }
+
+    public  static long calculateHash(int a, int m, char[] charArr) {
         long hash = 0;
 
         if (charArr.length==1) {
@@ -30,7 +36,6 @@ public class A {
                 hash = (hash*a + charArr[i])%m;
             }
         }
-
-        System.out.println(hash);
+        return hash;
     }
 }
