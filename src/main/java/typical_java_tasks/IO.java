@@ -37,9 +37,9 @@ public class IO {
         fileReader.close();
     }
 
-    public static void writeFromFileToFile() throws IOException {
-        FileReader reader = new FileReader("/Users/vkochenkov/Documents/NotWorkProjects/MyJavaTasks/src/main/resources/text1.txt");
-        FileWriter writer = new FileWriter("/Users/vkochenkov/Documents/NotWorkProjects/MyJavaTasks/src/main/resources/text2.txt");
+    public static void writeFromFileToFileLikeChars() throws IOException {
+        Reader reader = new FileReader("/Users/vkochenkov/Documents/NotWorkProjects/MyJavaTasks/src/main/resources/text1.txt");
+        Writer writer = new FileWriter("/Users/vkochenkov/Documents/NotWorkProjects/MyJavaTasks/src/main/resources/text2.txt");
 
         while (reader.ready()) {
             int c = reader.read();
@@ -51,21 +51,48 @@ public class IO {
         writer.close();
     }
 
+    public static void writeFromFileToFileLikeBytes() {
+        //try with resources
+        try (
+            InputStream is = new FileInputStream("src/main/java/Main.java");
+            OutputStream os = new FileOutputStream("Main2.java")
+        ) {
+            byte[] buffer = new byte[4098];
+
+            int b = is.read(buffer);
+            while (b != -1) {
+                os.write(buffer, 0, b);
+                b = is.read(buffer);
+            }
+        } catch (Exception ex) {
+            System.out.println("Something went wrong: " + ex.getMessage());
+        }
+    }
+
     //hierarchy
 
-    //bytes:
+    //for bytes:
         //abstract classes
             //InputStream;
             //OutputStream;
-        //realisations:
+        //realisations examples:
             //FileInputStream;
             //ByteArrayInputStream;
 
-    //chars:
+    //for chars:
         //abstract classes
             //Reader;
             //Writer;
-        //realisations:
-            //InputStreamReader; FileReader;
-            //OutputStreamWriter; FileWriter;
+        //realisation examples:
+            //FileReader;
+            //FileWriter;
+
+    //adapters: adapt bytes stream to stream of chars
+        //Reader = InputStreamReader(InputStream)
+        //Writer = OutputStreamWriter(OutputStream)
+
+    //decorators: add new functionality to reader/writer
+        //BufferedReader = BufferedReader(InputStreamReader(InputStream))
+        //BufferedWriter = BufferedWriter(OutputStreamWriter(OutputStream))
+
 }
